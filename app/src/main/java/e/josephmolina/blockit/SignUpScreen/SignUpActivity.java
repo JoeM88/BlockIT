@@ -1,7 +1,9 @@
-package e.josephmolina.blockit;
+package e.josephmolina.blockit.SignUpScreen;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import e.josephmolina.blockit.R;
 
 public class SignUpActivity extends AppCompatActivity {
 
