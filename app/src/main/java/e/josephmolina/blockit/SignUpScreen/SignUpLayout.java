@@ -1,4 +1,4 @@
-package e.josephmolina.blockit;
+package e.josephmolina.blockit.SignUpScreen;
 
 public class SignUpLayout {
 }
