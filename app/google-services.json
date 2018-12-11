@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "145387847514",
+    "firebase_url": "https://blockit-129c3.firebaseio.com",
+    "project_id": "blockit-129c3",
+    "storage_bucket": "blockit-129c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145387847514:android:9bdf139d3eecadf9",
+        "android_client_info": {
+          "package_name": "e.josephmolina.blockit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145387847514-m29rn0eb4eb20dqs2q5qohcltmrib26p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzkbTxFwf62_xbWIFLNOKCQ3vqhKYQkTg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

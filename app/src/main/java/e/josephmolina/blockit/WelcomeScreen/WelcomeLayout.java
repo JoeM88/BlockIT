@@ -1,6 +1,5 @@
 package e.josephmolina.blockit.WelcomeScreen;
 
-import android.util.Log;
 import android.widget.Button;
 
 import butterknife.BindView;
