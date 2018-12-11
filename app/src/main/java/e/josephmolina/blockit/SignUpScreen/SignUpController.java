@@ -1,10 +1,13 @@
 package e.josephmolina.blockit.SignUpScreen;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+
+import e.josephmolina.blockit.ListScreen.ListActivity;
 
 public class SignUpController implements SignUpLayout.SignUpScreenListener {
     private SignUpLayout signUpLayout;
@@ -31,7 +34,8 @@ public class SignUpController implements SignUpLayout.SignUpScreenListener {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                //TODO: Send user to list activity
+                                Intent goToListActivity = new Intent(signUpActivity, ListActivity.class);
+                                signUpActivity.startActivity(goToListActivity);
                             } else {
                                 signUpLayout.displayToastMessage("Authentication failed");
                             }
